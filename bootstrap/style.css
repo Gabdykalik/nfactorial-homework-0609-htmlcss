@@ -1,0 +1,40 @@
+.btn{
+    background: transparent;
+    box-sizing: border-box;
+    height: 74px;
+
+    border-color: transparent transparent transparent #202020;
+    transition: 200ms all ease;
+    cursor: pointer;
+
+    border-style: solid;
+    border-width: 37px 0 37px 60px;   
+    padding: 0;
+}
+
+.btn.paused{
+    border-style: double;
+    border-width: 0px 0 0px 60px;
+}
+
+.btn:hover{
+    border-color: transparent transparent transparent #404040;
+}
+
+.btn:focus {
+    box-shadow: none;
+}
+
+#vid{
+    z-index: -1;
+}
+
+.bg{
+    border-radius: 50px;
+    padding: 10px 20px;
+    background: rgba(255, 255, 255, 0.7);
+}
+
+.vid-row{
+    height: 90vh;
+}
